@@ -1,188 +1,13 @@
-#								#
-#     MASKED.RC CS:S Config		#
-#     Uploaded   10.09.2014 	#
-#   							#
-#   http://www.masked-rc.net	#
-#								#
+echo"#################################"
+echo"######MASKED.RC#CS:GO#Config#####"
+echo"######Uploaded###12.10.2014######"
+echo"#################################"
+echo"####http://www.masked-rc.net#####"
+echo"#################################"
+echo"########Standard#Commands########"
+echo"#################################"
 
 unbindall
-
-
-cl_clanid					""
-rcon_password 				"XXXX"
-fps_max						"0"
-
-
-
-//netsettings
-rate						"128000"
-cl_interp					"0"
-cl_interp_ratio				"1"
-cl_lagcompensation			"1"
-cl_cmdrate					"128"
-cl_updaterate			    "128"
-cl_resend					"6"
-cl_timeout 					"60"
-cl_allowdownload		    "0"
-cl_allowupload				"0"
-
-
-//viewmodel
-viewmodel_fov                 "68"
-viewmodel_offset_x            "2.5"
-viewmodel_offset_y            "2"
-viewmodel_offset_z            "-2"
-cl_bob_lower_amt              "0"
-cl_bobamt_lat                 "0"
-cl_bobamt_vert                "0"
-cl_bobcycle                   "2"
-cl_viewmodel_shift_left_amt   "0"
-cl_viewmodel_shift_right_amt  "0"
-
-
-
-//graphic
-r_drawtracers_firstperson	  "1"
-r_dynamic 					  "0"
-r_eyegloss 					  "0"
-r_eyemove 					  "0"
-r_eyeshift_x 				  "0"
-r_eyeshift_y 				  "0"
-r_eyeshift_z 				  "0"
-r_eyesize 					  "0"
-muzzleflash_light             "0"
-sys_antialiasing              "0"
-sys_aspectratio              "-1"
-sys_refldetail                "0"
-mat_queue_mode                "2"
-cl_minimal_rtt_shadows        "1"
-
-
-
-//sound
-voice_enable					      "1"
-windows_speaker_config				  "6"
-snd_legacy_surround				      "0"
-snd_mixahead					      "0.05"
-snd_musicvolume					      "0.00"
-snd_headphone_pan_exponent 			  "2"
-snd_headphone_pan_radial_weight       "2"
-snd_stereo_speaker_pan_exponent 	  "2"
-snd_stereo_speaker_pan_radial_weight  "0"
-volume						          "0.14"
- 
- 
- 
-//mouse
-cl_mouseenable					"1"
-m_customaccel					"0"
-m_customaccel_exponent			"0"
-m_customaccel_max				"0"
-m_customaccel_scale				"0" 
-m_forward					    "1"
-m_mouseaccel1					"0"
-m_mouseaccel2					"0"
-m_mousespeed					"0"
-m_pitch						    "0.022"
-m_rawinput					    "1"
-m_side						    "0.8"
-m_yaw						    "0.022"
-sensitivity					    "0.85"
-zoom_sensitivity_ratio_mouse	"0.78"
-
-
-
-//crosshair
-cl_crosshair_drawoutline        "0"
-cl_crosshair_outlinethickness   "0"
-cl_crosshairalpha               "999"
-cl_crosshaircolor               "1"
-cl_crosshaircolor_b             "0"
-cl_crosshaircolor_g             "0"
-cl_crosshaircolor_r             "0"
-cl_crosshairdot                 "0"
-cl_crosshairgap                 "-1.5"
-cl_crosshairscale               "1"
-cl_crosshairsize                "2.2"
-cl_crosshairstyle               "5"
-cl_crosshairthickness           "1"
-cl_crosshairusealpha            "1"
-
-
-
-//misc
-cl_autohelp					             "1"
-cl_autowepswitch				         "0"
-cl_downloadfilter				         "nosounds"
-cl_forcepreload 				         "1"
-cl_loadout_colorweaponnames 	         "1"
-cl_predictweapons 				         "1"
-cl_righthand					         "1"
-cl_showfps					             "1"
-cl_showhelp					             "0"
-cl_teammate_colors_show 	             "1"
-cl_disablefreezecam				         "1"
-cl_debugrumble                           "0"
-cl_dm_buyrandomweapons                   "0"
-cl_freezecameffects_showholiday          "0"
-con_enable					             "1"
-econ_highest_baseitem_seen 		         "63"
-gameinstructor_enable			         "0"
-mat_monitorgamma				         "1.6"
-mat_monitorgamma_tv_enabled 	         "0"
-net_graph					             "0"
-net_graphpos					         "1"
-net_graphheight					         "64"
-player_nevershow_communityservermessage  "1"
-bot_chatter                              "off"
-ui_steam_overlay_notification_position   "bottomleft"
-lobby_voice_chat_enabled                 "0"
-
-
-
-//hud
-hud_scaling					    "0.95"
-hud_showtargetid				"1"
-hud_takesshots					"0"
-cl_hud_playercount_pos          "1"
-cl_hud_playercount_showcount    "1"
-cl_hud_color                    "6"
-cl_hud_background_alpha         "1"
-cl_hud_bomb_under_radar         "0"
-cl_hud_healthammo_style         "0"
-
-
-
-//radar
-cl_radar_always_centered	    "0"
-cl_radar_icon_scale_min 	    "0.6"
-cl_radar_rotate 				"1"
-cl_radar_scale                  "0.35"
-cl_hud_radar_scale              "1"
-
-
-
-//Damage
-Developer                       "1"
-con_filter_text                 "Damage"
-con_filter_text_out             "Player:"
-con_filter_enable               "2"
-
-
-
-//alias
-alias "rr"				    "mp_restartgame 1; rcon mp_restartgame 1"
-alias "hold"				"mp_pause_match 1; rcon mp_pause_match 1"
-alias "unhold"				"mp_unpause_match 1; rcon mp_unpause_match 1"
-alias "cache"				"changelevel de_cache; rcon changelevel de_cache"
-alias "dust2"				"changelevel de_dust2; rcon changelevel de_dust2"
-alias "inferno"				"changelevel de_inferno; rcon changelevel de_inferno"
-alias "mirage"				"changelevel de_mirage; rcon changelevel de_mirage"
-alias "nuke"				"changelevel de_nuke; rcon changelevel de_nuke"
-alias "season"				"changelevel de_season; rcon changelevel de_season"
-alias "train"				"changelevel de_train; rcon changelevel de_train"
-
-
 
 //movement
 bind "0" "slot10"
@@ -229,33 +54,72 @@ bind "MOUSE2" "+attack2"
 bind "MWHEELUP" "invprev"
 bind "MWHEELDOWN" "invnext"
 
+//netsettings
+rate									"128000"
+cl_interp								"0"
+cl_interp_ratio							"1"
+cl_lagcompensation						"1"
+cl_cmdrate								"128"
+cl_updaterate			    			"128"
+cl_resend								"6"
+cl_timeout 								"60"
+cl_allowdownload		    			"0"
+cl_allowupload							"0"
 
+//mouse
+cl_mouseenable							"1"
+m_customaccel							"0"
+m_customaccel_exponent					"0"
+m_customaccel_max						"0"
+m_customaccel_scale						"0" 
+m_forward					   			"1"
+m_mouseaccel1							"0"
+m_mouseaccel2							"0"
+m_mousespeed							"0"
+m_pitch						    		"0.022"
+m_rawinput					    		"1"
+m_side						    		"0.8"
+m_yaw						    		"0.022"
+sensitivity					    		"2.1"
+zoom_sensitivity_ratio_mouse			"1.0"
 
-//buyscript
-bind "KP_5"		         "buy ak47; buy m4a1"
-bind "KP_LEFTARROW"	     "buy galil; buy famas"
-bind "KP_END"            "buy deagle"
-bind "KP_DOWNARROW"      "buy p250"
-bind "KP_PGUP"           "buy awp"
-bind "KP_HOME"           "buy ssg08"
-bind "KP_RIGHTARROW"     "buy p90"
-bind "KP_INS"            "buy vesthelm"
-bind "KP_DEL"            "buy defuser"
-bind "KP_ENTER"          "buy hegrenade"
-bind "KP_PLUS"           "buy smokegrenade"
-bind "KP_MINUS"          "buy flashbang"
-bind "KP_MULTIPLY"       "buy molotov; buy incgrenade"
-bind "-"                 "buy decoy"
-
-
+//misc
+cl_autohelp					             "0"					//Hilfetext ausblenden
+cl_autowepswitch				         "0"					//automatisches Waffenwechsel bei PICK
+cl_downloadfilter				         "nosounds"				//Download-Filter
+cl_forcepreload 				         "1"					//Vorladen von MapDaten
+cl_loadout_colorweaponnames 	         "1"					//Farbe der Waffen(skins) anzeigen
+cl_predictweapons 				         "1"					//Vorladen von Waffeneffekte Clientseitig
+cl_teammate_colors_show 	             "1"					//Farbige Punkte für Teammates
+cl_disablefreezecam				         "1"					//Killcam direkt anzeigen
+cl_debugrumble                           "0"
+cl_dm_buyrandomweapons                   "0"					//deaktiviert Zufallswaffen in DM
+cl_freezecameffects_showholiday          "0"					//verbirgt "Season Greetings" von Valve
+con_enable					             "1"					//aktiviert Konsole
+econ_highest_baseitem_seen 		         "63"					//schaltet Anzeige "2 neue Gegestände im Inventar" ab
+gameinstructor_enable			         "0"					//Spieletipps ausschalten
+player_nevershow_communityservermessage  "1"					//deaktiviert pop-up Meldungen
+bot_chatter                              "off"					//keine Radio Commands von Bots hören
+lobby_voice_chat_enabled                 "0"					// Mikrofon gemutet bei Lobby
+snd_musicvolume					      	 "0"
 
 //skill
 sk_autoaim_mode "1"
 skill "1.000000"
 
-
-
+//other
 host_writeconfig
 mat_savechanges
+
+//exec
+exec video.cfg
+echo "loaded video.cfg"
+exec hud.cfg
+echo "loaded hud.cfg"
+exec sound.cfg
+echo "loaded sound.cfg"
+exec custom.cfg
+echo "loaded custom.cfg"
+
 
 stuffcmds

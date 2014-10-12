@@ -1,24 +1,31 @@
-VIDEO.TXT
+Zum Einfügen der Config + Video Settings einfach in folgenden Ordner kopieren:
+C:\Program Files (x86)\Steam\SteamApps\common\Counter-Strike Global Offensive\csgo\cfg
+Die Alte bitte vorher löschen, um sicher zu gehen.
 
-"setting.mem_level" "2" > dieser befehl kann zu crashes beim Spielen führen.
-einfach auf 0 stellen.
+Counter-Strike: Global Offensive Startparameter:
+-high -32bit -dxlevel90 -novid  -tickrate128 -noborder -nointro -noforcemparms -noforcemaccel -noforcemspd
 
-
-"setting.mat_queue_mode" "-1" > 
-
-Dieser befehl setzt das Multicore-Rendering ein sofern er auf "2" steht.
-nicht für CPUs mit schwachen Kernels geeignet.
-
-dieser befehl kann zu crashes beim Spielen führen.
-einfach auf 0 stellen falls man crashes hat.
+//VIDEO.TXT
+"setting.mem_level" "2" > 	Dieser Befehl kann zu crashes beim Spielen führen.
+							Wenn ja, einfach auf 0 stellen.
 
 
 
-valve.rc
+"setting.mat_queue_mode" "-1" > 	Dieser befehl setzt das Multicore-Rendering ein sofern er auf "2" steht.
+									Nicht für CPUs mit schwachen Kernels geeignet.
+									Dieser Befehl kann zu crashes beim Spielen führen.
+									Wenn ja, einfach auf 0 stellen.
 
-
-dsp_enhance_stereo "0" / "1" bei 1 wird der stereo sound, atmospherischer und schöner kostet jedoch CPU Performance.
-
-dsp_slow_cpu "0" / "1" reduziert die qualität des Stereo sounds auf 1, gibt jedoch mehr Performance.
-
-windows_speaker_config “1" Configbefehl für die Einstellung “Headphones” (Stereo).
+									
+"setting.defaultres" "1920" > 			Auflösung Breite
+"setting.defaultresheight" "1080" > 	Auflösung Höhe
+"setting.aspectratiomode""1"	> 		16:9, falls ihr 4:3 wollte ändern in "0"
+									
+									
+//CONFIG
+Lade- Reihenfolge der Konfigurationsdateien
+1. valve.rc
+2. video.cfg
+3. hud.cfg
+4. sound.cfg
+5. custom.cfg
