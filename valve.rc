@@ -107,19 +107,4 @@ snd_musicvolume					      	 "0"
 sk_autoaim_mode "1"
 skill "1.000000"
 
-//other
-host_writeconfig
-mat_savechanges
-
-//exec
-exec video.cfg
-echo "loaded video.cfg"
-exec hud.cfg
-echo "loaded hud.cfg"
-exec sound.cfg
-echo "loaded sound.cfg"
-exec custom.cfg
-echo "loaded custom.cfg"
-
-
 stuffcmds

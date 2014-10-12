@@ -3,7 +3,7 @@ C:\Program Files (x86)\Steam\SteamApps\common\Counter-Strike Global Offensive\cs
 Die Alte bitte vorher löschen, um sicher zu gehen.
 
 Counter-Strike: Global Offensive Startparameter:
--high -32bit -dxlevel90 -novid  -tickrate128 -noborder -nointro -noforcemparms -noforcemaccel -noforcemspd
+-high -32bit -dxlevel90 -novid  -tickrate128 -noborder -nointro -noforcemparms -noforcemaccel -noforcemspd +exec autoexec.cfg <- Wichtig sonst werden nicht alle Configs geladen!!!
 
 //VIDEO.TXT
 "setting.mem_level" "2" > 	Dieser Befehl kann zu crashes beim Spielen führen.
